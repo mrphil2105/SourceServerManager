@@ -4,4 +4,9 @@
     <RootNamespace>SourceServerManager.Core</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+    <PackageReference Include="Mapster" Version="7.3.0" />
+  </ItemGroup>
+
 </Project>
