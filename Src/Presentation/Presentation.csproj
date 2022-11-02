@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SourceServerManager.Presentation</RootNamespace>
+    <AssemblyName>SourceServerManager</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
