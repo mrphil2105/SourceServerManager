@@ -81,4 +81,14 @@ public class ServerService : IServerService
 
         return new SuccessResult();
     }
+
+    public void Dispose()
+    {
+        _dbContext.Dispose();
+    }
+
+    public ValueTask DisposeAsync()
+    {
+        return _dbContext.DisposeAsync();
+    }
 }

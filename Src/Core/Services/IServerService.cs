@@ -2,7 +2,7 @@ using SourceServerManager.Core.Data;
 
 namespace SourceServerManager.Core.Services;
 
-public interface IServerService
+public interface IServerService : IDisposable, IAsyncDisposable
 {
     Task<ServerDetailsDto?> GetByIdAsync(int id, CancellationToken cancellationToken = default);
 
